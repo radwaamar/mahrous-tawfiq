@@ -1,0 +1,2442 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صدقة جارية وهدية رحمة ونور | المرحوم محروس توفيق - إهداء ابنته آية</title>
+    
+    <!-- الخطوط العربية الراقية -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;600;700;800;900&family=Reem+Kufi:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- مكتبة الأيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        :root {
+            --primary: #0f392c;
+            --primary-light: #185341;
+            --primary-dark: #09241b;
+            --accent-gold: #c99738;
+            --accent-gold-light: #e5b95f;
+            --accent-gold-soft: #fcf6e8;
+            --bg-body: #f5f7f6;
+            --bg-card: #ffffff;
+            --bg-glass: rgba(255, 255, 255, 0.85);
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --text-gold: #a17726;
+            --border-color: #e5e7eb;
+            --border-gold: rgba(201, 151, 56, 0.35);
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 8px 24px rgba(15, 57, 44, 0.08);
+            --shadow-lg: 0 16px 36px rgba(15, 57, 44, 0.12);
+            --radius-sm: 10px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-full: 9999px;
+            --font-main: 'Cairo', 'Segoe UI', Tahoma, sans-serif;
+            --font-quran: 'Amiri', serif;
+            --font-title: 'Reem Kufi', 'Cairo', serif;
+            --transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        [data-theme="dark"] {
+            --primary: #123d30;
+            --primary-light: #1b5745;
+            --primary-dark: #071712;
+            --accent-gold: #dfad47;
+            --accent-gold-light: #ebd08d;
+            --accent-gold-soft: #232219;
+            --bg-body: #081612;
+            --bg-card: #0e241d;
+            --bg-glass: rgba(14, 36, 29, 0.9);
+            --text-main: #e6edea;
+            --text-muted: #9fb5ab;
+            --text-gold: #dfad47;
+            --border-color: #1a4235;
+            --border-gold: rgba(223, 173, 71, 0.3);
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+            --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.5);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.85;
+            letter-spacing: 0.15px;
+            direction: rtl;
+            text-align: right;
+            overflow-x: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-body);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-light);
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-gold);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .islamic-pattern-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            opacity: 0.035;
+            z-index: 0;
+            background-image: radial-gradient(var(--accent-gold) 1.5px, transparent 1.5px), radial-gradient(var(--primary) 1.5px, var(--bg-body) 1.5px);
+            background-size: 60px 60px;
+            background-position: 0 0, 30px 30px;
+        }
+
+        .top-utility-bar {
+            background: var(--primary-dark);
+            color: #d1fae5;
+            font-size: 0.88rem;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(201, 151, 56, 0.2);
+            position: relative;
+            z-index: 100;
+        }
+        .utility-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .utility-message {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .utility-message i {
+            color: var(--accent-gold);
+        }
+        .utility-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .theme-toggle-btn, .font-size-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #ffffff;
+            padding: 4px 12px;
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            font-size: 0.82rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: var(--transition);
+        }
+        .theme-toggle-btn:hover, .font-size-btn:hover {
+            background: var(--accent-gold);
+            color: #000;
+        }
+
+        .memorial-header {
+            position: relative;
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+            color: #ffffff;
+            padding: 60px 0 50px;
+            text-align: center;
+            border-bottom: 4px solid var(--accent-gold);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+            z-index: 10;
+        }
+        .memorial-header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0l40 40-40 40L0 40z' fill='%23c99738' fill-opacity='0.05'/%3E%3C/svg%3E") repeat;
+            pointer-events: none;
+        }
+        .bismillah-art {
+            font-family: var(--font-quran);
+            font-size: 2.1rem;
+            color: var(--accent-gold-light);
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+        }
+        .sadaqah-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(201, 151, 56, 0.15);
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold-light);
+            padding: 6px 20px;
+            border-radius: var(--radius-full);
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            backdrop-filter: blur(4px);
+        }
+        .deceased-name {
+            font-family: var(--font-title);
+            font-size: clamp(2rem, 5vw, 3.4rem);
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 12px;
+            text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            line-height: 1.3;
+        }
+        .deceased-name span {
+            color: var(--accent-gold-light);
+            display: inline-block;
+            position: relative;
+        }
+        .deceased-name span::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 10%;
+            width: 80%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+        }
+        .memorial-dedication {
+            font-size: 1.25rem;
+            color: #e0f2fe;
+            margin-bottom: 24px;
+            font-weight: 600;
+        }
+        .daughter-badge {
+            background: rgba(255, 255, 255, 0.15);
+            color: #fef3c7;
+            padding: 4px 14px;
+            border-radius: 8px;
+            border-right: 3px solid var(--accent-gold);
+            font-weight: 800;
+        }
+        .prophetic-hadith-box {
+            max-width: 820px;
+            margin: 0 auto 30px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px dashed rgba(201, 151, 56, 0.5);
+            border-radius: var(--radius-md);
+            padding: 20px 25px;
+            position: relative;
+        }
+        .hadith-text {
+            font-family: var(--font-quran);
+            font-size: 1.35rem;
+            color: #fefce8;
+            line-height: 2;
+        }
+        .hadith-ref {
+            display: block;
+            margin-top: 8px;
+            font-size: 0.88rem;
+            color: var(--accent-gold-light);
+            font-family: var(--font-main);
+        }
+
+        .header-actions-row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #b38226 100%);
+            color: #111827;
+            font-weight: 700;
+            padding: 12px 28px;
+            border-radius: var(--radius-full);
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(201, 151, 56, 0.4);
+            transition: var(--transition);
+            text-decoration: none;
+        }
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(201, 151, 56, 0.6);
+            color: #000;
+        }
+        .btn-outline-light {
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: var(--radius-full);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            font-size: 0.98rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            backdrop-filter: blur(5px);
+            transition: var(--transition);
+            text-decoration: none;
+        }
+        .btn-outline-light:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .live-stats-bar {
+            margin-top: -30px;
+            position: relative;
+            z-index: 20;
+            margin-bottom: 40px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+        }
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-gold);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+        }
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent-gold);
+        }
+        .stat-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            background: var(--accent-gold-soft);
+            color: var(--accent-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        .stat-info h4 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.1;
+        }
+        [data-theme="dark"] .stat-info h4 {
+            color: var(--accent-gold-light);
+        }
+        .stat-info p {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .nav-tabs-wrapper {
+            position: sticky;
+            top: 0;
+            z-index: 90;
+            background: var(--bg-glass);
+            backdrop-filter: blur(12px);
+            border-bottom: 2px solid var(--border-gold);
+            padding: 10px 0;
+            box-shadow: var(--shadow-sm);
+        }
+        .nav-tabs-list {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            padding: 4px 0;
+            list-style: none;
+        }
+        .nav-tabs-list::-webkit-scrollbar {
+            display: none;
+        }
+        .tab-btn {
+            background: transparent;
+            border: none;
+            outline: none;
+            font-family: var(--font-main);
+            font-size: 0.98rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            padding: 10px 18px;
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        .tab-btn i {
+            font-size: 1rem;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+        .tab-btn:hover {
+            color: var(--primary);
+            background: var(--accent-gold-soft);
+        }
+        .tab-btn.active {
+            background: var(--primary);
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(15, 57, 44, 0.25);
+        }
+        .tab-btn.active i {
+            color: var(--accent-gold-light);
+        }
+        [data-theme="dark"] .tab-btn.active {
+            background: var(--accent-gold);
+            color: #000;
+        }
+        [data-theme="dark"] .tab-btn.active i {
+            color: #000;
+        }
+
+        .search-filter-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 18px 24px;
+            margin: 30px 0;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .search-input-group {
+            position: relative;
+            flex: 1;
+            min-width: 260px;
+        }
+        .search-input-group i {
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+        }
+        .search-input {
+            width: 100%;
+            padding: 12px 46px 12px 18px;
+            border-radius: var(--radius-full);
+            border: 1px solid var(--border-color);
+            background: var(--bg-body);
+            color: var(--text-main);
+            font-family: var(--font-main);
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+        }
+        .search-input:focus {
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 3px rgba(201, 151, 56, 0.15);
+        }
+        .filter-tags-group {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .filter-tag-btn {
+            background: var(--bg-body);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            padding: 6px 14px;
+            border-radius: var(--radius-full);
+            font-size: 0.85rem;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        .filter-tag-btn:hover, .filter-tag-btn.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        .content-tab-pane {
+            display: none;
+            animation: fadeIn 0.4s ease forwards;
+        }
+        .content-tab-pane.active {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .section-header-block {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        .section-badge {
+            display: inline-block;
+            background: var(--accent-gold-soft);
+            color: var(--text-gold);
+            font-size: 0.9rem;
+            font-weight: 700;
+            padding: 4px 16px;
+            border-radius: var(--radius-full);
+            margin-bottom: 10px;
+        }
+        .section-title {
+            font-family: var(--font-title);
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.3;
+        }
+        [data-theme="dark"] .section-title {
+            color: var(--accent-gold-light);
+        }
+        .section-subtitle {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            max-width: 650px;
+            margin: 8px auto 0;
+        }
+
+        .dua-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 24px;
+            margin-bottom: 50px;
+        }
+        @media (max-width: 768px) {
+            .dua-cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .dua-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 26px;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            transition: var(--transition);
+            border-top: 4px solid var(--primary);
+        }
+        .dua-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+            border-top-color: var(--accent-gold);
+        }
+        .dua-badge-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        .dua-category-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            background: var(--accent-gold-soft);
+            color: var(--text-gold);
+            padding: 3px 12px;
+            border-radius: var(--radius-full);
+        }
+        .dua-source-tag {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .dua-body-text {
+            font-family: var(--font-quran);
+            font-size: 1.32rem;
+            line-height: 2.1;
+            color: var(--text-main);
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .dua-virtue-note {
+            background: var(--bg-body);
+            border-right: 3px solid var(--accent-gold);
+            padding: 10px 14px;
+            border-radius: 4px;
+            font-size: 0.86rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .dua-card-actions {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            padding-top: 14px;
+            border-top: 1px solid var(--border-color);
+        }
+        .dua-btn-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .action-icon-btn {
+            background: var(--bg-body);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .action-icon-btn:hover {
+            background: var(--accent-gold);
+            color: #000;
+            border-color: var(--accent-gold);
+        }
+        .action-icon-btn.whatsapp-share:hover {
+            background: #25D366;
+            color: #fff;
+            border-color: #25D366;
+        }
+        .amen-btn {
+            background: var(--accent-gold-soft);
+            border: 1px solid var(--accent-gold);
+            color: var(--text-gold);
+            font-family: var(--font-main);
+            font-weight: 700;
+            padding: 6px 16px;
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            font-size: 0.88rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: var(--transition);
+        }
+        .amen-btn:hover, .amen-btn.clicked {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        .azkar-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .zikr-item-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            position: relative;
+        }
+        .zikr-item-card.completed {
+            border-color: #10b981;
+            background: rgba(16, 185, 129, 0.04);
+        }
+        .zikr-header-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .zikr-title-pill {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        [data-theme="dark"] .zikr-title-pill {
+            color: var(--accent-gold-light);
+        }
+        .zikr-text-box {
+            font-family: var(--font-quran);
+            font-size: 1.3rem;
+            line-height: 2.1;
+            color: var(--text-main);
+        }
+        .zikr-bottom-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .zikr-reward-text {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            max-width: 70%;
+        }
+        .zikr-counter-btn {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: #ffffff;
+            border: none;
+            padding: 10px 22px;
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            font-weight: 800;
+            font-size: 1.05rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            min-width: 130px;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(15, 57, 44, 0.2);
+            transition: var(--transition);
+        }
+        .zikr-counter-btn:active {
+            transform: scale(0.96);
+        }
+        .zikr-counter-btn.done {
+            background: #10b981;
+            color: #fff;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            pointer-events: none;
+        }
+
+        .tasbeeh-wrapper {
+            max-width: 650px;
+            margin: 0 auto 50px;
+            background: var(--bg-card);
+            border: 2px solid var(--border-gold);
+            border-radius: 30px;
+            padding: 40px 30px;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+        }
+        .tasbeeh-zikr-selector {
+            width: 100%;
+            padding: 12px 18px;
+            border-radius: var(--radius-full);
+            border: 2px solid var(--border-gold);
+            background: var(--bg-body);
+            color: var(--text-main);
+            font-family: var(--font-main);
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 25px;
+            outline: none;
+            cursor: pointer;
+        }
+        .tasbeeh-circle-container {
+            width: 250px;
+            height: 250px;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            background: linear-gradient(145deg, var(--bg-body), var(--bg-card));
+            box-shadow: 10px 10px 25px rgba(0,0,0,0.1), -10px -10px 25px rgba(255,255,255,0.7);
+            border: 6px solid var(--accent-gold);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+            position: relative;
+        }
+        [data-theme="dark"] .tasbeeh-circle-container {
+            box-shadow: 10px 10px 25px rgba(0,0,0,0.6), -10px -10px 25px rgba(255,255,255,0.04);
+        }
+        .tasbeeh-circle-container:active {
+            transform: scale(0.96);
+            box-shadow: inset 4px 4px 10px rgba(0,0,0,0.2);
+        }
+        .tasbeeh-main-count {
+            font-size: 4rem;
+            font-weight: 900;
+            color: var(--primary);
+            font-family: var(--font-main);
+            line-height: 1;
+        }
+        [data-theme="dark"] .tasbeeh-main-count {
+            color: var(--accent-gold-light);
+        }
+        .tasbeeh-round-target {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-top: 8px;
+            font-weight: 600;
+        }
+        .tasbeeh-tap-hint {
+            font-size: 0.8rem;
+            color: var(--accent-gold);
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .tasbeeh-controls-row {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+        .tasbeeh-control-btn {
+            background: var(--bg-body);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 10px 20px;
+            border-radius: var(--radius-full);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        .tasbeeh-control-btn:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+        .dedicate-thawab-box {
+            background: linear-gradient(135deg, rgba(201, 151, 56, 0.12) 0%, rgba(15, 57, 44, 0.12) 100%);
+            border: 1px solid var(--border-gold);
+            border-radius: var(--radius-md);
+            padding: 18px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .dedicate-text {
+            text-align: right;
+            font-size: 0.92rem;
+            color: var(--text-main);
+        }
+        .dedicate-btn {
+            background: var(--accent-gold);
+            color: #000;
+            border: none;
+            padding: 9px 22px;
+            border-radius: var(--radius-full);
+            font-weight: 700;
+            font-size: 0.92rem;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .dedicate-btn:hover {
+            background: var(--accent-gold-light);
+            transform: translateY(-2px);
+        }
+
+        .quran-surahs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 22px;
+            margin-bottom: 30px;
+        }
+        .surah-audio-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .surah-audio-card:hover {
+            border-color: var(--accent-gold);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
+        .surah-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .surah-number-badge {
+            width: 44px;
+            height: 44px;
+            background: var(--accent-gold-soft);
+            color: var(--text-gold);
+            border: 2px solid var(--accent-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.1rem;
+        }
+        .surah-name-arabic {
+            font-family: var(--font-title);
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--primary);
+        }
+        [data-theme="dark"] .surah-name-arabic {
+            color: var(--accent-gold-light);
+        }
+        .surah-meta-details {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 18px;
+            display: flex;
+            gap: 12px;
+        }
+        .audio-player-custom {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        .audio-player-custom audio {
+            width: 100%;
+            height: 38px;
+            border-radius: var(--radius-full);
+            outline: none;
+        }
+        .surah-read-btn {
+            width: 100%;
+            background: var(--bg-body);
+            border: 1px solid var(--border-color);
+            color: var(--primary);
+            padding: 10px;
+            border-radius: var(--radius-full);
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        .surah-read-btn:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        [data-theme="dark"] .surah-read-btn {
+            color: var(--accent-gold-light);
+        }
+        [data-theme="dark"] .surah-read-btn:hover {
+            background: var(--accent-gold);
+            color: #000;
+        }
+
+        .quran-reader-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 30px 15px;
+        }
+        .quran-reader-content {
+            background: var(--bg-card);
+            max-width: 860px;
+            margin: 0 auto;
+            border-radius: var(--radius-lg);
+            border: 2px solid var(--accent-gold);
+            padding: 35px 30px;
+            position: relative;
+            box-shadow: var(--shadow-lg);
+        }
+        .close-modal-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--bg-body);
+            border: 1px solid var(--border-color);
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            cursor: pointer;
+            color: var(--text-main);
+            transition: var(--transition);
+        }
+        .close-modal-btn:hover {
+            background: #ef4444;
+            color: #fff;
+            border-color: #ef4444;
+        }
+        .quran-modal-header {
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+        .quran-text-container {
+            font-family: var(--font-quran);
+            font-size: 1.55rem;
+            line-height: 2.3;
+            text-align: justify;
+            color: var(--text-main);
+            padding: 10px 5px;
+        }
+
+        .charity-guide-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 22px;
+            margin-bottom: 40px;
+        }
+        .charity-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+        .charity-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--accent-gold);
+        }
+        .charity-card-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--accent-gold-soft);
+            color: var(--accent-gold);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            margin-bottom: 16px;
+        }
+        .charity-card h4 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        [data-theme="dark"] .charity-card h4 {
+            color: var(--accent-gold-light);
+        }
+        .charity-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.7;
+        }
+
+        .prayer-wall-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-gold);
+            border-radius: var(--radius-lg);
+            padding: 35px 30px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 40px;
+        }
+        .prayer-input-row {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        .prayer-text-field {
+            flex: 1;
+            min-width: 250px;
+            padding: 14px 18px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            background: var(--bg-body);
+            color: var(--text-main);
+            font-family: var(--font-main);
+            font-size: 1rem;
+            outline: none;
+        }
+        .prayer-text-field:focus {
+            border-color: var(--accent-gold);
+        }
+        .send-prayer-btn {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: #fff;
+            border: none;
+            padding: 12px 28px;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        .send-prayer-btn:hover {
+            box-shadow: 0 4px 15px rgba(15, 57, 44, 0.3);
+            transform: translateY(-2px);
+        }
+        .prayers-feed-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+            max-height: 450px;
+            overflow-y: auto;
+            padding: 5px;
+        }
+        .single-prayer-card {
+            background: var(--bg-body);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: var(--transition);
+        }
+        .single-prayer-card:hover {
+            border-color: var(--accent-gold);
+        }
+        .prayer-card-text {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            margin-bottom: 12px;
+            font-style: italic;
+        }
+        .prayer-card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        .card-maker-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-gold);
+            border-radius: var(--radius-lg);
+            padding: 35px 30px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .memorial-preview-card {
+            max-width: 550px;
+            margin: 25px auto;
+            background: linear-gradient(135deg, #09241b 0%, #104436 100%);
+            border: 3px solid var(--accent-gold);
+            border-radius: 20px;
+            padding: 35px 25px;
+            color: #ffffff;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            text-align: center;
+        }
+        .memorial-preview-card::after {
+            content: "";
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            right: 8px;
+            bottom: 8px;
+            border: 1px dashed rgba(201, 151, 56, 0.4);
+            border-radius: 14px;
+            pointer-events: none;
+        }
+        .preview-bismillah {
+            font-family: var(--font-quran);
+            font-size: 1.6rem;
+            color: var(--accent-gold-light);
+            margin-bottom: 12px;
+        }
+        .preview-label {
+            font-size: 0.92rem;
+            color: #d1fae5;
+            margin-bottom: 8px;
+        }
+        .preview-name {
+            font-family: var(--font-title);
+            font-size: 2.2rem;
+            color: #ffffff;
+            margin-bottom: 6px;
+            font-weight: 800;
+        }
+        .preview-daughter {
+            font-size: 1rem;
+            color: var(--accent-gold-light);
+            margin-bottom: 18px;
+        }
+        .preview-dua {
+            font-family: var(--font-quran);
+            font-size: 1.25rem;
+            line-height: 1.9;
+            color: #fefce8;
+            margin-bottom: 20px;
+            padding: 0 10px;
+        }
+        .preview-footer {
+            font-size: 0.8rem;
+            color: #9fb5ab;
+        }
+        .card-maker-actions {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .toast-notification {
+            position: fixed;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: var(--primary-dark);
+            color: #ffffff;
+            border: 1px solid var(--accent-gold);
+            padding: 12px 24px;
+            border-radius: var(--radius-full);
+            font-size: 0.95rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+            z-index: 2000;
+            opacity: 0;
+            transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            pointer-events: none;
+        }
+        .toast-notification.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        .memorial-footer {
+            background: var(--primary-dark);
+            color: #9fb5ab;
+            border-top: 3px solid var(--accent-gold);
+            padding: 50px 0 30px;
+            text-align: center;
+            position: relative;
+        }
+        .footer-content {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+        .footer-logo-title {
+            font-family: var(--font-title);
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        .footer-logo-title span {
+            color: var(--accent-gold-light);
+        }
+        .footer-desc {
+            font-size: 0.98rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        .footer-divider {
+            height: 1px;
+            background: rgba(255, 255, 255, 0.1);
+            margin: 25px 0;
+        }
+        .footer-copy {
+            font-size: 0.88rem;
+            color: #6ee7b7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="islamic-pattern-bg"></div>
+
+    <div class="top-utility-bar">
+        <div class="container utility-flex">
+            <div class="utility-message">
+                <i class="fa-solid fa-moon"></i>
+                <span>اللَّهُمَّ اجعل هذا العمل خالصاً لوجهك الكريم ونوراً في قبر محروس توفيق</span>
+            </div>
+            <div class="utility-actions">
+                <button class="font-size-btn" id="decreaseFontBtn" title="تصغير الخط">
+                    <i class="fa-solid fa-minus"></i> A-
+                </button>
+                <button class="font-size-btn" id="increaseFontBtn" title="تكبير الخط">
+                    <i class="fa-solid fa-plus"></i> A+
+                </button>
+                <button class="theme-toggle-btn" id="themeToggleBtn" title="التبديل بين النمط الليلي والنهاري">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span id="themeBtnText">النمط الليلي</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <header class="memorial-header">
+        <div class="container">
+            <div class="bismillah-art">بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</div>
+            <div class="sadaqah-badge">
+                <i class="fa-solid fa-star-and-crescent"></i>
+                <span>صدقة جارية وهدية رحمة ونور واستغفار</span>
+            </div>
+            <h1 class="deceased-name">
+                المرحوم بإذن الله: <span>محروس توفيق</span>
+            </h1>
+            <p class="memorial-dedication">
+                أعدّتها ورجت برّه ورحمته ونوره ابنتُه البارّة: <span class="daughter-badge">آيَـة مَحْرُوس دِيَاب تَوْفِيق</span>
+            </p>
+
+            <div class="prophetic-hadith-box">
+                <div class="hadith-text">
+                    «إِذَا مَاتَ الإنْسَانُ انْقَطَعَ عنْه عَمَلُهُ إِلَّا مِن ثَلَاثَةٍ: إِلَّا مِن صَدَقَةٍ جَارِيَةٍ، أَوْ عِلْمٍ يُنْتَفَعُ بِهِ، أَوْ وَلَدٍ صَالِحٍ يَدْعُو له»
+                </div>
+                <span class="hadith-ref">رواه مسلم (1631) عن أبي هريرة رضي الله عنه — والولد يشمل الابن والابنة</span>
+            </div>
+
+            <div class="header-actions-row">
+                <button class="btn-gold" id="quickDuaHeaderBtn">
+                    <i class="fa-solid fa-hands-praying"></i>
+                    <span>دعوة بالرحمة والمغفرة له</span>
+                </button>
+                <a href="#tasbeehSection" class="btn-outline-light">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <span>السبحة الإلكترونية وإهداء الثواب</span>
+                </a>
+                <button class="btn-outline-light" id="shareWebsiteTopBtn">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <span>نشر الرابط لكسب الأجر</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container live-stats-bar">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                <div class="stat-info">
+                    <h4 id="totalAmensDisplay">1,860</h4>
+                    <p>دعوة وتأمين أُهديت لروحه</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-hands"></i></div>
+                <div class="stat-info">
+                    <h4 id="totalTasbeehDisplay">12,430</h4>
+                    <p>تسبيحة واستغفار في ميزانه</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-book-quran"></i></div>
+                <div class="stat-info">
+                    <h4>6 سور</h4>
+                    <p>مباركة مستحبة ومسموعة</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                <div class="stat-info">
+                    <h4>برٌّ دائم</h4>
+                    <p>صدقة جارية لا تنقطع</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav-tabs-wrapper">
+        <div class="container">
+            <ul class="nav-tabs-list" id="mainNavTabs">
+                <li>
+                    <button class="tab-btn active" data-target="duasTab">
+                        <i class="fa-solid fa-hands-praying"></i>
+                        <span>أدعية المتوفى والاستغفار والرحمة</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="tab-btn" data-target="azkarTab">
+                        <i class="fa-solid fa-sun"></i>
+                        <span>الأذكار اليومية الجامعة</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="tab-btn" data-target="tasbeehTab">
+                        <i class="fa-solid fa-fingerprint"></i>
+                        <span>السبحة وإهداء الثواب</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="tab-btn" data-target="quranTab">
+                        <i class="fa-solid fa-book-quran"></i>
+                        <span>سور مباركة وتلاوات</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="tab-btn" data-target="charityTab">
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+                        <span>فضل الصدقة وبر الوالد</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="tab-btn" data-target="cardMakerTab">
+                        <i class="fa-solid fa-image"></i>
+                        <span>بطاقة الإهداء والمشاركة</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="tab-btn" data-target="wallTab">
+                        <i class="fa-solid fa-comments"></i>
+                        <span>سجل دعوات الزائرين</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container" style="padding-bottom: 60px;">
+
+        <!-- 1. تبويب الأدعية الشاملة والاستغفار -->
+        <section id="duasTab" class="content-tab-pane active">
+            
+            <div class="search-filter-box">
+                <div class="search-input-group">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="duaSearchInput" class="search-input" placeholder="ابحث في الأدعية (مثال: استغفار، رحمة، أبي، القبر، الجمعة، الفردوس...)">
+                </div>
+                <div class="filter-tags-group">
+                    <button class="filter-tag-btn active" data-filter="all">جميع الأدعية</button>
+                    <button class="filter-tag-btn" data-filter="istighfar">أدعية الاستغفار الكبرى</button>
+                    <button class="filter-tag-btn" data-filter="daughter">دعاء الابنة البارة لأبيها</button>
+                    <button class="filter-tag-btn" data-filter="mercy">أدعية الرحمة والمغفرة</button>
+                    <button class="filter-tag-btn" data-filter="sunnah">من صحيح السنة</button>
+                    <button class="filter-tag-btn" data-filter="friday">يوم الجمعة</button>
+                    <button class="filter-tag-btn" data-filter="jannah">الفردوس الأعلى</button>
+                </div>
+            </div>
+
+            <div class="section-header-block">
+                <span class="section-badge">موسوعة أدعية الرحمة والاستغفار</span>
+                <h2 class="section-title">أدعية للمرحوم محروس توفيق</h2>
+                <p class="section-subtitle">أدعية مباركة بالرحمة والمغفرة وجوامع الاستغفار، وهدية بر ونور مهداة من ابنته آية لرفع درجاته في أعلى الجنان.</p>
+            </div>
+
+            <div class="dua-cards-grid" id="duasGridContainer">
+                <!-- سيتم ملؤها بالجافاسكريبت -->
+            </div>
+        </section>
+
+        <!-- 2. تبويب الأذكار اليومية -->
+        <section id="azkarTab" class="content-tab-pane">
+            <div class="section-header-block" style="margin-top: 30px;">
+                <span class="section-badge">حصن المسلم والزاد اليومي</span>
+                <h2 class="section-title">الأذكار اليومية الجامعة</h2>
+                <p class="section-subtitle">أذكار الصباح والمساء وأذكار ما بعد الصلوات المكتوبة مع عداد تفاعلي لكل ذكر لضبط القراءة ونيل الأجر العظيم.</p>
+            </div>
+
+            <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 30px;">
+                <button class="filter-tag-btn active" id="btnMorningAzkar">أذكار الصباح</button>
+                <button class="filter-tag-btn" id="btnEveningAzkar">أذكار المساء</button>
+                <button class="filter-tag-btn" id="btnAfterPrayerAzkar">أذكار بعد الصلاة</button>
+                <button class="filter-tag-btn" id="btnSleepAzkar">أذكار النوم</button>
+            </div>
+
+            <div class="azkar-container" id="azkarListContainer">
+                <!-- سيتم عرض الأذكار هنا -->
+            </div>
+        </section>
+
+        <!-- 3. تبويب السبحة الإلكترونية -->
+        <section id="tasbeehTab" class="content-tab-pane">
+            <div class="section-header-block" style="margin-top: 30px;">
+                <span class="section-badge">ميزان الحسنات والاستغفار</span>
+                <h2 class="section-title">السبحة الإلكترونية المباركة</h2>
+                <p class="section-subtitle">سبِّح واستغفر واذكر الله بنية إهداء ثواب كل تسبيحة لنور قبر الوالد الحبيب محروس توفيق.</p>
+            </div>
+
+            <div class="tasbeeh-wrapper" id="tasbeehSection">
+                <select id="tasbeehSelect" class="tasbeeh-zikr-selector">
+                    <option value="أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ وَأَتُوبُ إِلَيْهِ لِوَالِدِي مَحْرُوس دِيَاب">أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ وَأَتُوبُ إِلَيْهِ (بنية المغفرة لمحروس توفيق)</option>
+                    <option value="اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ">اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ</option>
+                    <option value="سُبْحَانَ اللَّهِ وَبِحَمْدِهِ ، سُبْحَانَ اللَّهِ الْعَظِيمِ">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ ، سُبْحَانَ اللَّهِ الْعَظِيمِ</option>
+                    <option value="اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى نَبِيِّنَا مُحَمَّدٍ">اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى نَبِيِّنَا مُحَمَّدٍ</option>
+                    <option value="لا إِلَهَ إِلا اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ">لا إِلَهَ إِلا اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ</option>
+                    <option value="لا حَوْلَ وَلا قُوَّةَ إِلا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ">لا حَوْلَ وَلا قُوَّةَ إِلا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ</option>
+                    <option value="يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ">يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ</option>
+                </select>
+
+                <div class="tasbeeh-circle-container" id="tasbeehTapArea" title="انقر للتسبيح">
+                    <div class="tasbeeh-main-count" id="tasbeehCount">0</div>
+                    <div class="tasbeeh-round-target">الدورة الحالية: <span id="tasbeehCycle">33</span></div>
+                    <div class="tasbeeh-tap-hint"><i class="fa-solid fa-hand-pointer"></i> المس الدائرة للذكر</div>
+                </div>
+
+                <div class="tasbeeh-controls-row">
+                    <button class="tasbeeh-control-btn" id="resetTasbeehBtn">
+                        <i class="fa-solid fa-rotate-right"></i> تصفير الدورة
+                    </button>
+                    <button class="tasbeeh-control-btn" id="toggleSoundBtn">
+                        <i class="fa-solid fa-volume-high" id="soundIcon"></i> <span id="soundStatusText">صوت النقر: مفعل</span>
+                    </button>
+                    <button class="tasbeeh-control-btn" id="vibrateBtn">
+                        <i class="fa-solid fa-mobile-screen"></i> اهتزاز الهاتف
+                    </button>
+                </div>
+
+                <div class="dedicate-thawab-box">
+                    <div class="dedicate-text">
+                        <strong>إهداء ثواب هذه الجلسة:</strong>
+                        <div>اللَّهُمَّ اجعل ثواب هذه التسبيحات والاستغفارات نوراً وبرداً وسلاماً في قبر محروس توفيق.</div>
+                    </div>
+                    <button class="dedicate-btn" id="dedicateThawabBtn">
+                        <i class="fa-solid fa-gift"></i> إهداء الثواب الآن
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. تبويب القرآن الكريم والتلاوات -->
+        <section id="quranTab" class="content-tab-pane">
+            <div class="section-header-block" style="margin-top: 30px;">
+                <span class="section-badge">كلام رب العالمين</span>
+                <h2 class="section-title">سور قرآنية مباركة وتلاوات خاشعة</h2>
+                <p class="section-subtitle">استمع واقرأ سور القرآن المستحبة ذات الفضل العظيم (يس، تبارك الملك، الكهف، الواقعة، آية الكرسي).</p>
+            </div>
+
+            <div class="quran-surahs-grid" id="quranSurahsGrid">
+                <!-- سور القرآن -->
+            </div>
+        </section>
+
+        <!-- 5. تبويب فضل الصدقة وبر الوالد -->
+        <section id="charityTab" class="content-tab-pane">
+            <div class="section-header-block" style="margin-top: 30px;">
+                <span class="section-badge">أحكام وفضائل شرعية</span>
+                <h2 class="section-title">دليل فضل الصدقة وبر الوالد بعد وفاته</h2>
+                <p class="section-subtitle">كيف تبر البنت الصالحة والدها بعد رحيله؟ وبماذا يصل الثواب بإجماع علماء المسلمين؟</p>
+            </div>
+
+            <div class="charity-guide-grid">
+                <div class="charity-card">
+                    <div class="charity-card-icon"><i class="fa-solid fa-hands-praying"></i></div>
+                    <h4>1. كثرة الاستغفار والدعاء له</h4>
+                    <p>قال رسول الله ﷺ: «إِنَّ الرَّجُلَ لَتُرْفَعُ دَرَجَتُهُ فِي الْجَنَّةِ فَيَقُولُ: أَنَّى هَذَا؟ فَيُقَالُ: بِاسْتِغْفَارِ وَلَدِكَ لَكَ». استغفار البنت لوالدها يرفع مكانته في الجنة ويعلي مقامه عند الله.</p>
+                </div>
+                <div class="charity-card">
+                    <div class="charity-card-icon"><i class="fa-solid fa-faucet-drip"></i></div>
+                    <h4>2. سُقيا الماء وحفر الآبار</h4>
+                    <p>عن سعد بن عبادة رضي الله عنه قال: قلت: يا رسول الله إن أمي ماتت، أفأتصدق عنها؟ قال: «نعم»، قلت: فأي الصدقة أفضل؟ قال: «سقي الماء». سقي الماء من أبرد الصدقات وأعظمها أجراً على المتوفى.</p>
+                </div>
+                <div class="charity-card">
+                    <div class="charity-card-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                    <h4>3. طباعة وتوزيع المصاحف ونشر الخير</h4>
+                    <p>وضع مصاحف في المساجد أو دور التحفيظ، فكل حرف يُقرأ أو تسبيحة تُذكر تُكتب في صحيفة الوالد بإذن الله دون أن ينقص من أجور القارئين شيء.</p>
+                </div>
+                <div class="charity-card">
+                    <div class="charity-card-icon"><i class="fa-solid fa-hands-holding-child"></i></div>
+                    <h4>4. كفالة الأيتام وإطعام المساكين</h4>
+                    <p>إطعام الطعام وتفريج كربات المحتاجين وكفالة اليتيم بنية المتوفى من أسباب مرافقة النبي ﷺ في الجنة، وثواب هذه الصدقة يصل للميت برحمة الله وفضله.</p>
+                </div>
+                <div class="charity-card">
+                    <div class="charity-card-icon"><i class="fa-solid fa-mosque"></i></div>
+                    <h4>5. المساهمة في بناء المساجد</h4>
+                    <p>قال رسول الله ﷺ: «من بنى مسجداً لله بنى الله له في الجنة مثله». والمساهمة ولو بسهم يسير في بيوت الله صدقة جارية مباركة ومستمرة.</p>
+                </div>
+                <div class="charity-card">
+                    <div class="charity-card-icon"><i class="fa-solid fa-users"></i></div>
+                    <h4>6. صلة رحم الوالد وإكرام أصدقائه</h4>
+                    <p>من أعظم بر البنت لأبيها بعد وفاته: صلة رحمه وعماته وأعمامه وإكرام أصدقائه وأحبابه وفاءً له وتأسياً بهدي الحبيب المصطفى ﷺ.</p>
+                </div>
+            </div>
+
+            <div style="background: var(--bg-card); border: 2px dashed var(--accent-gold); border-radius: var(--radius-lg); padding: 30px; margin-top: 20px;">
+                <h3 style="font-family: var(--font-title); font-size: 1.5rem; color: var(--primary); margin-bottom: 12px;">
+                    <i class="fa-solid fa-circle-check" style="color: var(--accent-gold);"></i> هل يصل ثواب صدقة البنت واستغفارها لأبيها؟
+                </h3>
+                <p style="font-size: 1.05rem; line-height: 2; color: var(--text-main);">
+                    <strong>أجمع علماء المسلمين قاطبة</strong> على أن الميت ينتفع بما يُهدى إليه من صدقات واستغفار ودعاء، وكلمة «ولد صالح» في الحديث النبوي الشريف تشمل الذكر والأنثى بإجماع أهل العلم واللغة. فدعاء البنت الصالحة لأبيها واستغفارها له وصدقتها الجارية عنه من أعظم الأعمال المقبولة التي تجعل قبره روضة من رياض الجنة.
+                </p>
+            </div>
+        </section>
+
+        <!-- 6. تبويب صانع بطاقة الإهداء والمشاركة -->
+        <section id="cardMakerTab" class="content-tab-pane">
+            <div class="section-header-block" style="margin-top: 30px;">
+                <span class="section-badge">هدية رحمة ونور</span>
+                <h2 class="section-title">بطاقة الدعاء والإهداء للمشاركة</h2>
+                <p class="section-subtitle">شاركي بطاقة الدعاء لوالدك الحبيب محروس توفيق عبر واتساب لتكثير الداعين له بالرحمة والمغفرة.</p>
+            </div>
+
+            <div class="card-maker-section">
+                <div class="memorial-preview-card" id="memorialCardToShare">
+                    <div class="preview-bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+                    <div class="preview-label">صدقة جارية وهدية رحمة ونور لروح الوالد الحبيب</div>
+                    <div class="preview-name">محروس توفيق</div>
+                    <div class="preview-daughter">أعدّتها ورجت برّه ورحمته ابنته: آية محروس توفيق</div>
+                    <div class="preview-dua" id="cardDuaText">
+                        "اللَّهُمَّ ارْحَمْ أَبِي مَحْرُوس دِيَاب كَمَا رَبَّانِي صَغِيرًا، اللَّهُمَّ اغْفِرْ لَهُ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ، وَاجْعَلْ قَبْرَهُ رَوْضَةً مِنْ رِيَاضِ الْجَنَّةِ، وَأَسْكِنْهُ الْفِرْدَوْسَ الأَعْلَى بِلا حِسَابٍ."
+                    </div>
+                    <div class="preview-footer">
+                        نسألكم الفاتحة والدعاء له بظهر الغيب | صدقة جارية
+                    </div>
+                </div>
+
+                <div class="card-maker-actions">
+                    <button class="btn-gold" id="shareViaWhatsappBtn">
+                        <i class="fa-brands fa-whatsapp"></i> مشاركة عبر واتساب
+                    </button>
+                    <button class="btn-outline-light" style="color: var(--text-main); border-color: var(--border-color);" id="copyCardTextBtn">
+                        <i class="fa-solid fa-copy"></i> نسخ نص البطاقة
+                    </button>
+                    <button class="btn-outline-light" style="color: var(--text-main); border-color: var(--border-color);" id="changeCardDuaBtn">
+                        <i class="fa-solid fa-shuffle"></i> تغيير الدعاء المكتوب
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. تبويب سجل دعوات الزائرين -->
+        <section id="wallTab" class="content-tab-pane">
+            <div class="section-header-block" style="margin-top: 30px;">
+                <span class="section-badge">دعاء بظهر الغيب</span>
+                <h2 class="section-title">حائط الدعاء لمحروس توفيق</h2>
+                <p class="section-subtitle">اكتب دعوة طيبة للفقيد أو أمِّن على دعوات الزائرين، فالدعاء بظهر الغيب مستجاب ويوكّل الله به مَلَكاً يقول: "ولك بمثل".</p>
+            </div>
+
+            <div class="prayer-wall-section">
+                <div class="prayer-input-row">
+                    <input type="text" id="visitorNameInput" class="prayer-text-field" style="max-width: 200px;" placeholder="اسمك الكريم (اختياري)">
+                    <input type="text" id="visitorPrayerInput" class="prayer-text-field" placeholder="اكتب دعاءك للمرحوم محروس توفيق هنا...">
+                    <button class="send-prayer-btn" id="sendPrayerBtn">
+                        <i class="fa-solid fa-paper-plane"></i> إرسال الدعاء
+                    </button>
+                </div>
+
+                <div class="prayers-feed-container" id="prayersFeed">
+                    <!-- سيتم تحميل الدعوات هنا -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="quran-reader-modal" id="quranReaderModal">
+        <div class="quran-reader-content">
+            <button class="close-modal-btn" id="closeQuranModalBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="quran-modal-header">
+                <h3 id="modalSurahTitle" style="font-family: var(--font-title); font-size: 2rem; color: var(--primary);">سورة يس</h3>
+                <p id="modalSurahMeta" style="color: var(--text-muted); font-size: 0.95rem;">مكية - عدد آياتها 83</p>
+            </div>
+            <div class="quran-text-container" id="modalSurahText">
+                <!-- نص السورة -->
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-notification" id="toastBox">
+        <i class="fa-solid fa-circle-check" style="color: #10b981;"></i>
+        <span id="toastMsg">تم نسخ الدعاء بنجاح!</span>
+    </div>
+
+    <footer class="memorial-footer">
+        <div class="container footer-content">
+            <div class="footer-logo-title">
+                صدقة جارية وهدية رحمة | <span>محروس توفيق</span>
+            </div>
+            <p class="footer-desc">
+                اللَّهُمَّ اجعل كل حرف قُرئ، وكل تسبيحة رُفعت، وكل دعوة صعدت في هذا الموقع نوراً وسروراً وضياءً وفسحة وبرداً وسلاماً في قبر الوالد الحبيب <strong>محروس توفيق</strong>، واجمع ابنته وأهله به في الفردوس الأعلى من الجنة بلا حساب ولا سابقة عذاب.
+            </p>
+            <p style="color: var(--accent-gold-light); font-size: 1.05rem; font-weight: 700;">
+                أعدّت هذا الموقع ابنته البارّة: <strong>آية محروس توفيق</strong> — تقبل الله منها وأجزل لها المثوبة
+            </p>
+            <div class="footer-divider"></div>
+            <div class="footer-copy">
+                جميع الحقوق محفوظة لوجه الله تعالى | موقع متاح مجاناً للنشر والدعاء لكل من زاره
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const DUAS_DATA = [
+            {
+                id: 1,
+                category: "istighfar",
+                categoryName: "استغفار جامع",
+                source: "صحيح مسلم",
+                text: "اللَّهُمَّ اغْفِرْ لِأَبِي مَحْرُوس دِيَاب تَوْفِيق، وَارْحَمْهُ، وَعَافِهِ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهِ مِنَ الْخَطَايَا كَمَا نَقَّيْتَ الثَّوْبَ الأَبْيَضَ مِنَ الدَّنَسِ، وَأَبْدِلْهُ دَارًا خَيْرًا مِنْ دَارِهِ، وَأَهْلاً خَيْرًا مِنْ أَهْلِهِ، وَأَدْخِلْهُ الْجَنَّةَ، وَأَعِذْهُ مِنْ عَذَابِ الْقَبْرِ، وَمِنْ عَذَابِ النَّارِ.",
+                virtue: "من أجمع وأصح ما دعا به النبي ﷺ لجنائز المسلمين."
+            },
+            {
+                id: 2,
+                category: "daughter",
+                categoryName: "بر الابنة لوالدها",
+                source: "دعاء الابنة البارة",
+                text: "رَبِّ ارْحَمْ أَبِي مَحْرُوس كَمَا رَبَّانِي صَغِيرًا، اللَّهُمَّ اجْزِهِ عَنِّي خَيْرَ مَا جَزَيْتَ وَالِدًا عَنْ وَلَدِهِ، اللَّهُمَّ إِنَّهُ أَحْسَنَ إِلَيَّ وَأَفَاضَ عَلَيَّ حَنَانَهُ وَعَطْفَهُ فِي حَيَاتِهِ، فَأَفِضْ عَلَيْهِ مِنْ سَحَائِبِ جُودِكَ وَرَحْمَتِكَ وَكَرَمِكَ فِي قَبْرِهِ يَا أَرْحَمَ الرَّاحِمِينَ.",
+                virtue: "دعاء البنت الصالحة لوالدها يرفع درجته في الجنة حتى يقول: يا رب أَنَّى لي هذا؟ فيقال: باستغفار ابنتك لك."
+            },
+            {
+                id: 3,
+                category: "istighfar",
+                categoryName: "استغفار ومغفرة",
+                source: "مسند الإمام أحمد",
+                text: "اللَّهُمَّ إِنِّي أَسْتَغْفِرُكَ لِأَبِي مَحْرُوس دِيَاب تَوْفِيق اسْتِغْفَارًا يَمْحُو كُلَّ ذَنْبٍ، وَيَجْلِبُ كُلَّ خَيْرٍ، وَيَرْفَعُ كُلَّ دَرَجَةٍ، اللَّهُمَّ اغْفِرْ لَهُ مَا قَدَّمَ وَمَا أَخَّرَ، وَمَا أَسْرَرَ وَمَا أَعْلَنَ، وَمَا أَنْتَ أَعْلَمُ بِهِ مِنْهُ، أَنْتَ الْمُقَدِّمُ وَأَنْتَ الْمُؤَخِّرُ لا إِلَهَ إِلا أَنْتَ.",
+                virtue: "الاستغفار الشامل لما تقدم وتأخر من الذنوب."
+            },
+            {
+                id: 4,
+                category: "mercy",
+                categoryName: "رحمة ونور",
+                source: "أدعية القبر والبرزخ",
+                text: "اللَّهُمَّ أَنْزِلْ عَلَى قَبْرِ أَبِي مَحْرُوس الضِّيَاءَ وَالنُّورَ وَالْفُسْحَةَ وَالسُّرُورَ، اللَّهُمَّ اجْعَلْ قَبْرَهُ رَوْضَةً مِنْ رِيَاضِ الْجَنَّةِ وَلا تَجْعَلْهُ حُفْرَةً مِنْ حُفَرِ النَّارِ، وَافْسَحْ لَهُ فِي قَبْرِهِ مَدَّ بَصَرِهِ، وَافْرُشْ قَبْرَهُ مِنْ فِرَاشِ الْجَنَّةِ.",
+                virtue: "طلب النور والفسحة والسرور في البرزخ."
+            },
+            {
+                id: 5,
+                category: "daughter",
+                categoryName: "بر الابنة لوالدها",
+                source: "دعاء خاص",
+                text: "اللَّهُمَّ إِنَّ ابْنَتَهُ آيَة تَرْجُوكَ وَتَبْسُطُ إِلَيْكَ أَكُفَّ الضَّرَاعَةِ أَنْ تَجْعَلَ أَبَاهَا مَحْرُوس دِيَاب ضَاحِكاً مُسْتَبْشِراً بِمَقْعَدِهِ مِنَ الْجَنَّةِ، اللَّهُمَّ لَقِّهِ رَوْحاً وَرَيْحَاناً وَجَنَّةَ نَعِيمٍ، وَاجْعَلْهُ مِمَّنْ تَقُولُ لَهُمُ الْمَلائِكَةُ: ﴿سَلَامٌ عَلَيْكُم بِمَا صَبَرْتُمْ فَنِعْمَ عُقْبَى الدَّارِ﴾.",
+                virtue: "استبشار الوالد ببر ابنته ودعائها الصالح له."
+            },
+            {
+                id: 6,
+                category: "mercy",
+                categoryName: "رحمة وتثبيت",
+                source: "سنن أبي داود",
+                text: "اللَّهُمَّ ثَبِّتْهُ عِنْدَ السُّؤَالِ، اللَّهُمَّ لَقِّنْهُ حُجَّتَهُ، اللَّهُمَّ يَسِّرْ حِسَابَهُ، وَيَمِّنْ كِتَابَهُ، وَثَقِّلْ بِالْحَسَنَاتِ مِيزَانَهُ، وَثَبِّتْ عَلَى الصِّرَاطِ أَقْدَامَهُ، وَأَسْكِنْهُ فِي أَعْلَى عِلِّيِّينَ.",
+                virtue: "طلب التثبيت والنجاة في مراحل القيامة الكبرى."
+            },
+            {
+                id: 7,
+                category: "friday",
+                categoryName: "يوم الجمعة",
+                source: "ساعة الاستجابة",
+                text: "اللَّهُمَّ فِي يَوْمِ الْجُمُعَةِ الْمُبَارَكَةِ، نَسْأَلُكَ بِاسْمِكَ الأَعْظَمِ أَنْ تَبْعَثَ إِلَى قَبْرِ مَحْرُوس دِيَاب تَوْفِيق نَسَائِمَ رَحْمَتِكَ، وَأَنْ تَمْلأَ قَبْرَهُ رِضًا وَأَمَانًا، وَأَنْ تَفْتَحَ لَهُ بَابًا إِلَى الْجَنَّةِ لا يُسَدُّ أَبَدًا.",
+                virtue: "الدعاء في ساعة إجابة يوم الجمعة."
+            },
+            {
+                id: 8,
+                category: "jannah",
+                categoryName: "الفردوس الأعلى",
+                source: "صحيح مسلم",
+                text: "اللَّهُمَّ شَفِّعْ فِيهِ حَبِيبَنَا وَنَبِيَّنَا مُحَمَّدًا ﷺ، وَاحْشُرْهُ تَحْتَ لِوَائِهِ، وَاسْقِهِ مِنْ يَدِهِ الشَّرِيفَةِ شَرْبَةً هَنِيئَةً لا يَظْمَأُ بَعْدَهَا أَبَدًا، وَأَسْكِنْهُ الْفِرْدَوْسَ الأَعْلَى مَعَ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ وَالصَّالِحِينَ.",
+                virtue: "مرافقة النبي ﷺ في الفردوس الأعلى."
+            },
+            {
+                id: 9,
+                category: "istighfar",
+                categoryName: "استغفار جامع",
+                source: "المستدرك على الصحيحين",
+                text: "اللَّهُمَّ عَبْدُكَ مَحْرُوس دِيَاب تَوْفِيق احْتَاجَ إِلَى رَحْمَتِكَ، وَأَنْتَ غَنِيٌّ عَنْ عَذَابِهِ، إِنْ كَانَ مُحْسِناً فَزِدْ فِي إِحْسَانِهِ، وَإِنْ كَانَ مُسِيئاً فَتَجَاوَزْ عَنْهُ بِمَنِّكَ وَعَفْوِكَ يَا غَفُورُ يَا رَحِيمُ.",
+                virtue: "افتقار العبد لرحمة ربه وتجاوزه عن السيئات."
+            },
+            {
+                id: 10,
+                category: "mercy",
+                categoryName: "رحمة ومغفرة",
+                source: "دعاء مأثور",
+                text: "اللَّهُمَّ إِنَّهُ كَانَ يَشْهَدُ أَنَّكَ أَنْتَ اللَّهُ لا إِلَهَ إِلا أَنْتَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ، فَاغْفِرْ لَهُ بِشَهَادَتِهِ، وَحَرِّمْ جَسَدَهُ عَلَى النَّارِ، وَاجْعَلْ مَلائِكَةَ الرَّحْمَةِ تُبَشِّرُهُ بِالرَّوْحِ وَالرَّيْحَانِ.",
+                virtue: "التوسل بكلمة التوحيد الخالصة."
+            },
+            {
+                id: 11,
+                category: "daughter",
+                categoryName: "بر الابنة لوالدها",
+                source: "دعاء الوفاء واللقاء",
+                text: "اللَّهُمَّ اجْمَعْنِي بِأَبِي مَحْرُوس دِيَاب فِي جَنَّاتِ النَّعِيمِ عَلَى سُرُرٍ مُتَقَابِلِينَ، اللَّهُمَّ لا تَحْرِمْنِي لِقَاءَهُ، وَلا تَحْرِمْهُ أَجْرَ مَا تَرَكَ مِنْ صَالِحِ الْعَمَلِ، وَاجْعَلْ دُعَائِي لَهُ هَدِيَّةً دَائِمَةً تُفْرِحُ قَلْبَهُ فِي مَرْقَدِهِ.",
+                virtue: "سؤال اللقاء في الجنة ودوام البر."
+            },
+            {
+                id: 12,
+                category: "sunnah",
+                categoryName: "من صحيح السنة",
+                source: "سنن أبي داود والترمذي",
+                text: "اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا، وَشَاهِدِنَا وَغَائِبِنَا، وَصَغِيرِنَا وَكَبِيرِنَا، وَذَكَرِنَا وَأُنْثَانَا، اللَّهُمَّ مَنْ أَحْيَيْتَهُ مِنَّا فَأَحْيِهِ عَلَى الإِسْلاَمِ، وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَى الإِيمَانِ، اللَّهُمَّ لا تَحْرِمْنَا أَجْرَهُ، وَلا تُضِلَّنَا بَعْدَهُ.",
+                virtue: "دعاء جامع للموتى والأحياء."
+            }
+        ];
+
+        const AZKAR_DATA = {
+            morning: [
+                {
+                    text: "اللَّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+                    reward: "من قرأها حين يصبح أُجير من الجن حتى يمسي",
+                    count: 1
+                },
+                {
+                    text: "اللَّهُمَّ أَنْتَ رَبِّي لا إِلَهَ إِلا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لا يَغْفِرُ الذُّنُوبَ إِلا أَنْتَ.",
+                    reward: "سيد الاستغفار: من قالها موقناً بها حين يصبح فمات من يومه دخل الجنة",
+                    count: 1
+                },
+                {
+                    text: "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لا إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ.",
+                    reward: "طلب البركة والحفظ لليوم كله",
+                    count: 1
+                },
+                {
+                    text: "بِسْمِ اللَّهِ الَّذِي لا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الأَرْضِ وَلا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ.",
+                    reward: "من قالها ثلاثاً لم يضره شيء حتى يمسي",
+                    count: 3
+                },
+                {
+                    text: "رَضِيتُ بِاللَّهِ رَبّاً، وَبِالإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ ﷺ نَبِيّاً.",
+                    reward: "كان حقاً على الله أن يرضيه يوم القيامة",
+                    count: 3
+                },
+                {
+                    text: "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ أَصْلِحْ لِي شَأْنِي كُلَّهُ وَلا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ.",
+                    reward: "دعاء جامع لتفويض الأمر لله عز وجل",
+                    count: 1
+                },
+                {
+                    text: "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ: عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ، وَزِنَةَ عَرْشِهِ، وَمِدَادَ كَلِمَاتِهِ.",
+                    reward: "تزن عبادة ساعات طويلة من الذكر",
+                    count: 3
+                },
+                {
+                    text: "اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ.",
+                    reward: "من صلى عليّ عشراً أدركته شفاعتي",
+                    count: 10
+                }
+            ],
+            evening: [
+                {
+                    text: "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لا إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ.",
+                    reward: "حفظ المسلم وبركة ليلته",
+                    count: 1
+                },
+                {
+                    text: "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ.",
+                    reward: "لم يضره شيء في تلك الليلة",
+                    count: 3
+                },
+                {
+                    text: "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ.",
+                    reward: "من قالها مائة مرة حُطت خطاياه",
+                    count: 33
+                }
+            ],
+            afterPrayer: [
+                {
+                    text: "أَسْتَغْفِرُ اللَّهَ (3 مرات) .. اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ، تَبَارَكْتَ يَا ذَا الْجَلاَلِ وَالإِكْرَامِ.",
+                    reward: "هدي النبي ﷺ دبر كل صلاة مكتوبة",
+                    count: 1
+                },
+                {
+                    text: "سُبْحَانَ اللَّهِ (33) ، الْحَمْدُ لِلَّهِ (33) ، اللَّهُ أَكْبَرُ (33) .. وتَمَامُ الْمِائَةِ: لا إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ.",
+                    reward: "غُفرت خطاياه وإن كانت مثل زبد البحر",
+                    count: 33
+                }
+            ],
+            sleep: [
+                {
+                    text: "بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي، وَبِكَ أَرْفَعُهُ، فَإِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ.",
+                    reward: "حفظ النفس أثناء النوم",
+                    count: 1
+                }
+            ]
+        };
+
+        const QURAN_DATA = [
+            {
+                id: "yaseen",
+                name: "سورة يس",
+                number: 36,
+                type: "مكية",
+                ayahsCount: 83,
+                virtue: "قلب القرآن، وفيها الأثر في الرحمة بالموتى والتخفيف عنهم.",
+                audioUrl: "https://server8.mp3quran.net/afs/036.mp3",
+                reciter: "بصوت الشيخ مشاري العفاسي",
+                text: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ۝ يس ﴿١﴾ وَالْقُرْآنِ الْحَكِيمِ ﴿٢﴾ إِنَّكَ لَمِنَ الْمُرْسَلِينَ ﴿٣﴾ عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ ﴿٤﴾ تَنْزِيلَ الْعَزِيزِ الرَّحِيمِ ﴿٥﴾ لِتُنْذِرَ قَوْمًا مَا أُنْذِرَ آبَاؤُهُمْ فَهُمْ غَافِلُونَ ﴿٦﴾ لَقَدْ حَقَّ الْقَوْلُ عَلَىٰ أَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُونَ ﴿٧﴾ ... سُبْحَانَ الَّذِي بِيَدِهِ مَلَكُوتُ كُلِّ شَيْءٍ وَإِلَيْهِ تُرْجَعُونَ ﴿٨٣﴾"
+            },
+            {
+                id: "mulk",
+                name: "سورة الملك (تبارك)",
+                number: 67,
+                type: "مكية",
+                ayahsCount: 30,
+                virtue: "المانعة والمنجية من عذاب القبر، تشفع لصاحبها حتى يُغفر له.",
+                audioUrl: "https://server8.mp3quran.net/afs/067.mp3",
+                reciter: "بصوت الشيخ مشاري العفاسي",
+                text: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ۝ تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ ﴿١﴾ الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَهُوَ الْعَزِيزُ الْغَفُورُ ﴿٢﴾ ... قُلْ أَرَأَيْتُمْ إِنْ أَصْبَحَ مَاؤُكُمْ غَوْرًا فَمَن يَأْتِيكُم بِمَاءٍ مَّعِينٍ ﴿٣٠﴾"
+            },
+            {
+                id: "kahf",
+                name: "سورة الكهف",
+                number: 18,
+                type: "مكية",
+                ayahsCount: 110,
+                virtue: "نور ما بين الجمعتين، وعصمة من فتنة الدجال.",
+                audioUrl: "https://server8.mp3quran.net/afs/018.mp3",
+                reciter: "بصوت الشيخ مشاري العفاسي",
+                text: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ۝ الْحَمْدُ لِلَّهِ الَّذِي أَنْزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ وَلَمْ يَجْعَلْ لَهُ عِوَجًا ﴿١﴾ ... قُلْ إِنَّمَا أَنَا بَشَرٌ مِثْلُكُمْ يُوحَىٰ إِلَيَّ أَنَّمَا إِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ فَمَنْ كَانَ يَرْجُو لِقَاءَ رَبِّهِ فَلْيَعْمَلْ عَمَلًا صَالِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِ أَحَدًا ﴿١١٠﴾"
+            },
+            {
+                id: "waqiah",
+                name: "سورة الواقعة",
+                number: 56,
+                type: "مكية",
+                ayahsCount: 96,
+                virtue: "فيها ذكر مراتب الناس في الآخرة ومنازل السابقين وأصحاب اليمين.",
+                audioUrl: "https://server8.mp3quran.net/afs/056.mp3",
+                reciter: "بصوت الشيخ مشاري العفاسي",
+                text: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ۝ إِذَا وَقَعَتِ الْوَاقِعَةُ ﴿١﴾ لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ ﴿٢﴾ خَافِضَةٌ رَافِعَةٌ ﴿٣﴾ ... فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ ﴿٩٦﴾"
+            },
+            {
+                id: "kursi",
+                name: "آية الكرسي وخواتيم البقرة",
+                number: 2,
+                type: "مدنية",
+                ayahsCount: 3,
+                virtue: "أعظم آية في كتاب الله، حفظ من الشيطان ورفعة في الدرجات.",
+                audioUrl: "https://server8.mp3quran.net/afs/002.mp3",
+                reciter: "بصوت الشيخ مشاري العفاسي",
+                text: "اللَّهُ لا إِلَهَ إِلا هُوَ الْحَيُّ الْقَيُّومُ لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلا بِإِذْنِهِ ... وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا أَنْتَ مَوْلانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ."
+            },
+            {
+                id: "fatihah",
+                name: "سورة الفاتحة والمعوذات",
+                number: 1,
+                type: "مكية",
+                ayahsCount: 7,
+                virtue: "أم الكتاب والسبع المثاني والشفاء التام.",
+                audioUrl: "https://server8.mp3quran.net/afs/001.mp3",
+                reciter: "بصوت الشيخ مشاري العفاسي",
+                text: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴿١﴾ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿٢﴾ الرَّحْمَٰنِ الرَّحِيمِ ﴿٣﴾ مَالِكِ يَوْمِ الدِّينِ ﴿٤﴾ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٥﴾ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿٦﴾ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿٧﴾ ۝ قُلْ هُوَ اللَّهُ أَحَدٌ ۝ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ قُلْ أَعُوذُ بِرَبِّ النَّاسِ."
+            }
+        ];
+
+        let state = {
+            theme: localStorage.getItem('mahrous_sadaqah_theme') || 'light',
+            fontSize: parseInt(localStorage.getItem('mahrous_sadaqah_fontSize') || '16'),
+            totalAmens: parseInt(localStorage.getItem('mahrous_sadaqah_totalAmens') || '1860'),
+            tasbeehCount: parseInt(localStorage.getItem('mahrous_sadaqah_tasbeehCount') || '0'),
+            totalTasbeeh: parseInt(localStorage.getItem('mahrous_sadaqah_totalTasbeeh') || '12430'),
+            soundEnabled: localStorage.getItem('mahrous_sadaqah_sound') !== 'false',
+            prayers: JSON.parse(localStorage.getItem('mahrous_sadaqah_prayers_wall') || 'null') || [
+                { name: "ابنتك المحبة آية", text: "اللهم اجعل والدي محروس في أعلى عليين واجمعني به عند حوض نبيك ﷺ وهو راضٍ عني", date: "اليوم" },
+                { name: "أهل ومحبو الفقيد", text: "اللهم نور قبر محروس توفيق وافسح له مد بصره واغفر له ذنبه كله واجعل الجنة مثواه", date: "منذ قليل" },
+                { name: "فاعل خير", text: "اللهم اجعل هذا العمل الصالح في ميزان حسناته ونوراً له وثبته عند السؤال", date: "أمس" }
+            ]
+        };
+
+        let audioCtx = null;
+        function playClickSound() {
+            if (!state.soundEnabled) return;
+            try {
+                if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(650, audioCtx.currentTime);
+                osc.frequency.exponentialRampToValueAtTime(320, audioCtx.currentTime + 0.05);
+                gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.05);
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.start();
+                osc.stop(audioCtx.currentTime + 0.06);
+            } catch(e) {}
+        }
+
+        function showToast(message) {
+            const toast = document.getElementById('toastBox');
+            const toastMsg = document.getElementById('toastMsg');
+            toastMsg.innerText = message;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+
+        function applyTheme(theme) {
+            state.theme = theme;
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('mahrous_sadaqah_theme', theme);
+            document.getElementById('themeBtnText').innerText = theme === 'dark' ? 'النمط النهاري' : 'النمط الليلي';
+        }
+
+        function applyFontSize(size) {
+            state.fontSize = size;
+            document.body.style.fontSize = size + 'px';
+            localStorage.setItem('mahrous_sadaqah_fontSize', size);
+        }
+
+        function renderDuas(filter = 'all', searchQuery = '') {
+            const container = document.getElementById('duasGridContainer');
+            container.innerHTML = '';
+
+            const filtered = DUAS_DATA.filter(d => {
+                const matchFilter = (filter === 'all' || d.category === filter);
+                const matchSearch = (!searchQuery || d.text.includes(searchQuery) || d.categoryName.includes(searchQuery) || d.source.includes(searchQuery));
+                return matchFilter && matchSearch;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 40px; background: var(--bg-card); border-radius: 16px;">
+                        <i class="fa-solid fa-search" style="font-size: 2.5rem; color: var(--accent-gold); margin-bottom: 15px;"></i>
+                        <p style="font-size: 1.1rem; color: var(--text-muted);">لم نجد دعاءً يطابق بحثك، يمكنك تجربة كلمة أخرى أو تصفح جميع الأدعية.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            filtered.forEach(d => {
+                const card = document.createElement('div');
+                card.className = 'dua-card';
+                card.innerHTML = `
+                    <div>
+                        <div class="dua-badge-top">
+                            <span class="dua-category-label">${d.categoryName}</span>
+                            <span class="dua-source-tag"><i class="fa-solid fa-bookmark"></i> ${d.source}</span>
+                        </div>
+                        <div class="dua-body-text">${d.text}</div>
+                        ${d.virtue ? `<div class="dua-virtue-note"><i class="fa-solid fa-circle-info"></i> ${d.virtue}</div>` : ''}
+                    </div>
+                    <div class="dua-card-actions">
+                        <div class="dua-btn-group">
+                            <button class="action-icon-btn copy-dua-btn" title="نسخ الدعاء" data-text="${d.text}">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                            <button class="action-icon-btn whatsapp-share share-dua-btn" title="مشاركة عبر واتساب" data-text="${d.text}">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </button>
+                        </div>
+                        <button class="amen-btn" data-id="${d.id}">
+                            <i class="fa-solid fa-hands-praying"></i>
+                            <span>اللهم آمين</span>
+                        </button>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+
+            container.querySelectorAll('.copy-dua-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const text = btn.getAttribute('data-text');
+                    navigator.clipboard.writeText(text + "\n\n(صدقة جارية وهدية رحمة ونور للمرحوم محروس توفيق - إهداء ابنته آية)").then(() => {
+                        showToast("تم نسخ الدعاء بنجاح!");
+                    });
+                });
+            });
+
+            container.querySelectorAll('.share-dua-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const text = btn.getAttribute('data-text');
+                    const shareText = encodeURIComponent(`${text}\n\n*صدقة جارية وهدية رحمة ونور عن روح الوالد الحبيب: محروس توفيق*\n*إهداء ابنته البارة: آية محروس*\nنسألكم الدعاء له بالرحمة والمغفرة.`);
+                    window.open(`https://api.whatsapp.com/send?text=${shareText}`, '_blank');
+                });
+            });
+
+            container.querySelectorAll('.amen-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    btn.classList.add('clicked');
+                    btn.innerHTML = `<i class="fa-solid fa-check"></i> تقبل الله منكم`;
+                    btn.style.pointerEvents = 'none';
+                    incrementAmenCount();
+                    showToast("اللهم تقبل دعاءكم وأجزل مثوبتكم");
+                });
+            });
+        }
+
+        function incrementAmenCount() {
+            state.totalAmens++;
+            document.getElementById('totalAmensDisplay').innerText = state.totalAmens.toLocaleString();
+            localStorage.setItem('mahrous_sadaqah_totalAmens', state.totalAmens);
+        }
+
+        function renderAzkar(type = 'morning') {
+            const container = document.getElementById('azkarListContainer');
+            container.innerHTML = '';
+            const list = AZKAR_DATA[type] || AZKAR_DATA.morning;
+
+            list.forEach((item, index) => {
+                const zikrCard = document.createElement('div');
+                zikrCard.className = 'zikr-item-card';
+                let remaining = item.count;
+
+                zikrCard.innerHTML = `
+                    <div class="zikr-header-meta">
+                        <span class="zikr-title-pill"><i class="fa-solid fa-feather-pointed"></i> ذكر مبارك</span>
+                        <span style="font-size: 0.85rem; color: var(--accent-gold); font-weight: 700;">التكرار المطلوب: ${item.count}</span>
+                    </div>
+                    <div class="zikr-text-box">${item.text}</div>
+                    <div class="zikr-bottom-bar">
+                        <div class="zikr-reward-text"><i class="fa-solid fa-award" style="color: var(--accent-gold);"></i> ${item.reward}</div>
+                        <button class="zikr-counter-btn" id="btn_zikr_${index}">
+                            <span>كرّر (${remaining})</span>
+                        </button>
+                    </div>
+                `;
+
+                const countBtn = zikrCard.querySelector(`#btn_zikr_${index}`);
+                countBtn.addEventListener('click', () => {
+                    playClickSound();
+                    if (navigator.vibrate) navigator.vibrate(25);
+                    remaining--;
+                    if (remaining > 0) {
+                        countBtn.innerHTML = `<span>كرّر (${remaining})</span>`;
+                    } else {
+                        countBtn.classList.add('done');
+                        countBtn.innerHTML = `<i class="fa-solid fa-check"></i> تم الذكر`;
+                        zikrCard.classList.add('completed');
+                        showToast("هنيئاً لك الأجر والمثوبة");
+                    }
+                    incrementTasbeehCount(1);
+                });
+
+                container.appendChild(zikrCard);
+            });
+        }
+
+        function incrementTasbeehCount(amount = 1) {
+            state.tasbeehCount += amount;
+            state.totalTasbeeh += amount;
+            document.getElementById('tasbeehCount').innerText = state.tasbeehCount;
+            document.getElementById('totalTasbeehDisplay').innerText = state.totalTasbeeh.toLocaleString();
+            localStorage.setItem('mahrous_sadaqah_tasbeehCount', state.tasbeehCount);
+            localStorage.setItem('mahrous_sadaqah_totalTasbeeh', state.totalTasbeeh);
+
+            const cycle = Math.floor(state.tasbeehCount / 33) + 1;
+            document.getElementById('tasbeehCycle').innerText = (cycle * 33);
+        }
+
+        function initTasbeeh() {
+            const tapArea = document.getElementById('tasbeehTapArea');
+            const countDisplay = document.getElementById('tasbeehCount');
+            const resetBtn = document.getElementById('resetTasbeehBtn');
+            const dedicateBtn = document.getElementById('dedicateThawabBtn');
+            const soundBtn = document.getElementById('toggleSoundBtn');
+            const soundIcon = document.getElementById('soundIcon');
+            const soundText = document.getElementById('soundStatusText');
+            const vibrateBtn = document.getElementById('vibrateBtn');
+
+            countDisplay.innerText = state.tasbeehCount;
+            document.getElementById('totalTasbeehDisplay').innerText = state.totalTasbeeh.toLocaleString();
+            document.getElementById('totalAmensDisplay').innerText = state.totalAmens.toLocaleString();
+
+            tapArea.addEventListener('click', () => {
+                playClickSound();
+                if (navigator.vibrate) navigator.vibrate(35);
+                incrementTasbeehCount(1);
+            });
+
+            resetBtn.addEventListener('click', () => {
+                if (confirm("هل تريد تصفير عداد الدورة الحالية؟")) {
+                    state.tasbeehCount = 0;
+                    countDisplay.innerText = 0;
+                    document.getElementById('tasbeehCycle').innerText = 33;
+                    localStorage.setItem('mahrous_sadaqah_tasbeehCount', '0');
+                    showToast("تم تصفير عداد السبحة");
+                }
+            });
+
+            soundBtn.addEventListener('click', () => {
+                state.soundEnabled = !state.soundEnabled;
+                localStorage.setItem('mahrous_sadaqah_sound', state.soundEnabled);
+                soundIcon.className = state.soundEnabled ? 'fa-solid fa-volume-high' : 'fa-solid fa-volume-xmark';
+                soundText.innerText = state.soundEnabled ? 'صوت النقر: مفعل' : 'صوت النقر: صامت';
+                showToast(state.soundEnabled ? "تم تفعيل صوت التسبيح" : "تم كتم الصوت");
+            });
+
+            vibrateBtn.addEventListener('click', () => {
+                if (navigator.vibrate) {
+                    navigator.vibrate([100, 50, 100]);
+                    showToast("خاصية الاهتزاز تعمل على جهازك");
+                } else {
+                    showToast("الاهتزاز غير مدعوم على متصفحك الحالي");
+                }
+            });
+
+            dedicateBtn.addEventListener('click', () => {
+                if (state.tasbeehCount === 0) {
+                    showToast("سبِّح واذكر الله أولاً قبل إهداء الثواب");
+                    return;
+                }
+                showToast(`تم إهداء ثواب (${state.tasbeehCount}) تسبيحة واستغفار لنور قبر محروس توفيق تقبل الله`);
+            });
+        }
+
+        function renderQuranSurahs() {
+            const container = document.getElementById('quranSurahsGrid');
+            container.innerHTML = '';
+
+            QURAN_DATA.forEach(s => {
+                const card = document.createElement('div');
+                card.className = 'surah-audio-card';
+                card.innerHTML = `
+                    <div>
+                        <div class="surah-card-header">
+                            <div class="surah-number-badge">${s.number}</div>
+                            <h3 class="surah-name-arabic">${s.name}</h3>
+                        </div>
+                        <div class="surah-meta-details">
+                            <span><i class="fa-solid fa-location-dot"></i> ${s.type}</span>
+                            <span><i class="fa-solid fa-hashtag"></i> ${s.ayahsCount} آية</span>
+                        </div>
+                        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 15px; line-height: 1.6;">
+                            ${s.virtue}
+                        </p>
+                        <div style="font-size: 0.8rem; color: var(--accent-gold); margin-bottom: 8px;">
+                            <i class="fa-solid fa-headphones"></i> ${s.reciter}
+                        </div>
+                        <div class="audio-player-custom">
+                            <audio controls preload="none">
+                                <source src="${s.audioUrl}" type="audio/mpeg">
+                                المتصفح لا يدعم مشغل الصوت.
+                            </audio>
+                        </div>
+                    </div>
+                    <button class="surah-read-btn open-surah-modal" data-id="${s.id}">
+                        <i class="fa-solid fa-book-open"></i> قراءة نص السورة كاملاً
+                    </button>
+                `;
+                container.appendChild(card);
+            });
+
+            container.querySelectorAll('.open-surah-modal').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const id = btn.getAttribute('data-id');
+                    const surah = QURAN_DATA.find(item => item.id === id);
+                    if (surah) {
+                        document.getElementById('modalSurahTitle').innerText = surah.name;
+                        document.getElementById('modalSurahMeta').innerText = `${surah.type} - عدد آياتها ${surah.ayahsCount}`;
+                        document.getElementById('modalSurahText').innerHTML = surah.text;
+                        document.getElementById('quranReaderModal').style.display = 'block';
+                    }
+                });
+            });
+
+            document.getElementById('closeQuranModalBtn').addEventListener('click', () => {
+                document.getElementById('quranReaderModal').style.display = 'none';
+            });
+            window.addEventListener('click', (e) => {
+                const modal = document.getElementById('quranReaderModal');
+                if (e.target === modal) modal.style.display = 'none';
+            });
+        }
+
+        function renderPrayersWall() {
+            const feed = document.getElementById('prayersFeed');
+            feed.innerHTML = '';
+
+            state.prayers.forEach(p => {
+                const pCard = document.createElement('div');
+                pCard.className = 'single-prayer-card';
+                pCard.innerHTML = `
+                    <div class="prayer-card-text">"${p.text}"</div>
+                    <div class="prayer-card-meta">
+                        <span><i class="fa-solid fa-user-pen" style="color: var(--accent-gold);"></i> ${p.name || 'فاعل خير'}</span>
+                        <span>${p.date}</span>
+                    </div>
+                `;
+                feed.appendChild(pCard);
+            });
+        }
+
+        function initPrayersWall() {
+            const sendBtn = document.getElementById('sendPrayerBtn');
+            const nameInput = document.getElementById('visitorNameInput');
+            const prayerInput = document.getElementById('visitorPrayerInput');
+
+            sendBtn.addEventListener('click', () => {
+                const prayerText = prayerInput.value.trim();
+                const visitorName = nameInput.value.trim() || 'فاعل خير';
+
+                if (!prayerText) {
+                    showToast("يرجى كتابة نص الدعاء أولاً");
+                    return;
+                }
+
+                state.prayers.unshift({
+                    name: visitorName,
+                    text: prayerText,
+                    date: "الآن"
+                });
+
+                localStorage.setItem('mahrous_sadaqah_prayers_wall', JSON.stringify(state.prayers));
+                renderPrayersWall();
+                prayerInput.value = '';
+                showToast("جزاك الله خيراً، تم تسجيل دعائك في ميزان حسنات الوالد محروس توفيق");
+                incrementAmenCount();
+            });
+        }
+
+        const CARD_DUAS = [
+            "اللَّهُمَّ ارْحَمْ أَبِي مَحْرُوس دِيَاب كَمَا رَبَّانِي صَغِيرًا، اللَّهُمَّ اغْفِرْ لَهُ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ، وَاجْعَلْ قَبْرَهُ رَوْضَةً مِنْ رِيَاضِ الْجَنَّةِ، وَأَسْكِنْهُ الْفِرْدَوْسَ الأَعْلَى بِلا حِسَابٍ.",
+            "اللَّهُمَّ إِنَّ ابْنَتَهُ آيَة تَرْجُوكَ وَتَبْسُطُ إِلَيْكَ أَكُفَّ الضَّرَاعَةِ أَنْ تَمْلأَ قَبْرَ أَبِيهَا مَحْرُوس ضِيَاءً وَنُوراً وَفُسْحَةً وَسُرُوراً، وَأَنْ تُعْلِيَ مَقَامَهُ فِي عِلِّيِّينَ.",
+            "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ، وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهِ مِنَ الذُّنُوبِ وَالْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الأَبْيَضُ مِنَ الدَّنَسِ.",
+            "اللَّهُمَّ ثَبِّتْهُ عِنْدَ السُّؤَالِ، وَيَسِّرْ حِسَابَهُ، وَيَمِّنْ كِتَابَهُ، وَثَقِّلْ مَوَازِينَهُ بِالْحَسَنَاتِ، وَشَفِّعْ فِيهِ نَبِيَّنَا مُحَمَّدًا ﷺ وَاسْقِهِ مِنْ يَدِهِ شَرْبَةً لا يَظْمَأُ بَعْدَهَا أَبَدًا."
+        ];
+        let currentCardDuaIdx = 0;
+
+        function initCardMaker() {
+            const changeDuaBtn = document.getElementById('changeCardDuaBtn');
+            const copyCardBtn = document.getElementById('copyCardTextBtn');
+            const whatsappBtn = document.getElementById('shareViaWhatsappBtn');
+            const cardDuaEl = document.getElementById('cardDuaText');
+
+            changeDuaBtn.addEventListener('click', () => {
+                currentCardDuaIdx = (currentCardDuaIdx + 1) % CARD_DUAS.length;
+                cardDuaEl.innerText = `"${CARD_DUAS[currentCardDuaIdx]}"`;
+                showToast("تم تغيير صيغة الدعاء في البطاقة");
+            });
+
+            copyCardBtn.addEventListener('click', () => {
+                const text = `صدقة جارية وهدية رحمة ونور لروح الوالد الحبيب: محروس توفيق\nإهداء ابنته البارة: آية محروس\n\n${cardDuaEl.innerText}\n\nنسألكم الدعاء له وقراءة الفاتحة بظهر الغيب.`;
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast("تم نسخ نص بطاقة الإهداء للمشاركة!");
+                });
+            });
+
+            whatsappBtn.addEventListener('click', () => {
+                const text = encodeURIComponent(`*صدقة جارية وهدية رحمة ونور عن روح الوالد الحبيب: محروس توفيق*\n*إهداء ابنته البارة: آية محروس*\n\n${cardDuaEl.innerText}\n\nنسألكم الفاتحة والدعاء له بالرحمة والمغفرة.\nجزاكم الله خيراً.`);
+                window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
+            });
+        }
+
+        function initHeaderActions() {
+            document.getElementById('quickDuaHeaderBtn').addEventListener('click', () => {
+                incrementAmenCount();
+                showToast("آمين يا رب العالمين، شكر الله سعيكم ودعاءكم للوالد محروس توفيق");
+            });
+
+            document.getElementById('shareWebsiteTopBtn').addEventListener('click', () => {
+                const url = window.location.href;
+                const title = "موقع صدقة جارية وهدية رحمة ونور عن روح المرحوم محروس توفيق - إهداء ابنته آية";
+                if (navigator.share) {
+                    navigator.share({ title: title, text: "موقع صدقة جارية شامل للأدعية والأذكار والقرآن الكريم", url: url })
+                    .catch(() => {});
+                } else {
+                    navigator.clipboard.writeText(url).then(() => {
+                        showToast("تم نسخ رابط الموقع لمشاركته مع الأهل والأصدقاء");
+                    });
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            applyTheme(state.theme);
+            applyFontSize(state.fontSize);
+
+            document.getElementById('themeToggleBtn').addEventListener('click', () => {
+                applyTheme(state.theme === 'dark' ? 'light' : 'dark');
+            });
+
+            document.getElementById('increaseFontBtn').addEventListener('click', () => {
+                if (state.fontSize < 24) applyFontSize(state.fontSize + 1);
+            });
+
+            document.getElementById('decreaseFontBtn').addEventListener('click', () => {
+                if (state.fontSize > 13) applyFontSize(state.fontSize - 1);
+            });
+
+            const navTabs = document.querySelectorAll('#mainNavTabs .tab-btn');
+            const tabPanes = document.querySelectorAll('.content-tab-pane');
+
+            navTabs.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    navTabs.forEach(b => b.classList.remove('active'));
+                    tabPanes.forEach(p => p.classList.remove('active'));
+
+                    btn.classList.add('active');
+                    const targetId = btn.getAttribute('data-target');
+                    const targetPane = document.getElementById(targetId);
+                    if (targetPane) targetPane.classList.add('active');
+                });
+            });
+
+            renderDuas('all', '');
+
+            const searchInput = document.getElementById('duaSearchInput');
+            const filterBtns = document.querySelectorAll('.filter-tag-btn[data-filter]');
+            let currentFilter = 'all';
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentFilter = btn.getAttribute('data-filter');
+                    renderDuas(currentFilter, searchInput.value.trim());
+                });
+            });
+
+            searchInput.addEventListener('input', (e) => {
+                renderDuas(currentFilter, e.target.value.trim());
+            });
+
+            renderAzkar('morning');
+            const azkarTabBtns = [
+                { id: 'btnMorningAzkar', type: 'morning' },
+                { id: 'btnEveningAzkar', type: 'evening' },
+                { id: 'btnAfterPrayerAzkar', type: 'afterPrayer' },
+                { id: 'btnSleepAzkar', type: 'sleep' }
+            ];
+
+            azkarTabBtns.forEach(item => {
+                const btn = document.getElementById(item.id);
+                if (btn) {
+                    btn.addEventListener('click', () => {
+                        azkarTabBtns.forEach(b => document.getElementById(b.id).classList.remove('active'));
+                        btn.classList.add('active');
+                        renderAzkar(item.type);
+                    });
+                }
+            });
+
+            initTasbeeh();
+            renderQuranSurahs();
+            renderPrayersWall();
+            initPrayersWall();
+            initCardMaker();
+            initHeaderActions();
+        });
+    </script>
+</body>
+</html>
